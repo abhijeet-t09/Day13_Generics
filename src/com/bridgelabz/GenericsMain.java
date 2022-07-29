@@ -3,7 +3,7 @@ package com.bridgelabz;
 public class GenericsMain {
     public static void main(String[] args) {
 
-        MaxValue maxInt = new MaxValue();
-        maxInt.maxValue(32, 54, 72);
+        MaxValue maxFloat = new MaxValue();
+        maxFloat.maxValue(32.63F, 54.721F, 72.539F);
     }
 }
